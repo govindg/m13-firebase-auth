@@ -19,11 +19,18 @@ form.authenticate {
     border-radius: 3px;
 }
 
-.sign-in {
+.sign-in, .sign-up {
     float: right;
+    margin: 20px;
+
 }
 
-.sign-in button {
+.sign-in p, .sign-up p {
+    display: inline;
+    font-style: italic;
+}
+
+.sign-in button, .sign-up button {
     margin-left: 10px;
 }
 

@@ -33,9 +33,27 @@
     <section class="container">
         <h3>Sign up for an Account</h3>
         <!-- Input your form here -->
+        <form class="col s12 authenticate" id="sign-up">
+            <div class="input-field">
+                <input type="email" id="email" class="validate"></input>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" class="validate"></input>
+                <label for="password">Password</label>
+            </div>
+            <div class="input-field">
+                <input type="text" id="displayname" class="validate"></input>
+                <label for="displayname">Display Name</label>
+            </div>
+            
+            <button type="submit" class="btn waves-effect waves-light" name="action">SUBMIT<i class="material-icons right">send</i></button>
+        </form>
 
-        <div>
+        <div class="sign-in">
             <!-- Paragraph + Link to sign-in form -->
+            <p>Already have an account?</p> 
+            <a href="sign-in.html"><button class="waves-effect waves-light btn">SIGN IN</button></a>
         </div>
     </section>
 </body>
